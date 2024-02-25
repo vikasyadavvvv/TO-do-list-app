@@ -1,0 +1,122 @@
+body {
+    font-family:cursive;
+    background-color: rgba(35, 35, 35, 0.947);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    height: 600px;
+    width: 800px;
+    overflow-y: auto;
+    background-color: black;
+    border: 5px solid rgb(2, 154, 255);
+    box-shadow: 0 0 20px rgb(227, 225, 225);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.header {
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:rgb(2, 154, 255); 
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 10px;
+}
+p{
+    background:linear-gradient(90deg,rgb(2, 154, 255),rgb(0, 247, 255),rgb(255, 6, 114),rgb(255, 0, 191));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+ h1 {
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+button {
+    background:linear-gradient(90deg,rgb(2, 154, 255),rgb(0, 247, 255));
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background:linear-gradient(90deg,rgb(2, 154, 255),rgb(0, 247, 255),rgb(255, 6, 114),rgb(255, 0, 191));
+    color: whitesmoke;
+    border-radius: whitesmoke;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:rgba(45, 26, 26, 0.099);
+    color: whitesmoke;
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+#dateTime {
+    font-size: 20px;
+    color: whitesmoke;
+}
+#ADDTASKBTN{
+    margin-left: 100px;
+}
+
+#DONT{
+   font-weight: bold;
+   text-align: left;
+   margin-left: 100px;
+   margin-right: 80px;
+   font-size: 80px;
+}
+#QUIT{
+    font-weight: bold;
+    text-align: right;
+    margin-right: 100px;
+    margin-left: 80px;
+    font-size: 80px;
+ 
+}
